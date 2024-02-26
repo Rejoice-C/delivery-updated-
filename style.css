@@ -8,13 +8,19 @@ body{
     height: 50px;
     text-align: center;
     padding-top: 7px;
-    margin: auto;
+    /* margin: auto; */
     color: white;
  }
 
  header h3 {
   margin-top: 0;
   
+ }
+ .container{
+  /* display: flex; */
+  position: fixed;
+  left: 30%;
+
  }
  h1 {
     font-size: 40px;
@@ -50,6 +56,18 @@ body{
     font-size: 10;
     color: black;
     }
+    
+   .footer h4{
+   /* background-color:white; */
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 10;
+    color: black;
+    padding: auto;
+    padding-top: 20px;
+    }
+
  
     .button {
       background-color:rgb(64, 102, 7);
@@ -62,13 +80,12 @@ body{
       display: inline-block;
       font-size: 16px;
       margin: 6px 4px;
-
     }
     
  .footer {
-   background-color:white;
+  background-color:white;
    width: 500px;
-   height: 60px;
+   height: 135px;
    text-align: center;
    font-size: 30;
    color: black;
@@ -76,11 +93,14 @@ body{
 
   p {
    background-color:rgb(64, 102, 7);
-   width: 500px;
+   width: 450px;
    height: 40px;
    padding-top: 15px;
    text-align: center;
    font-size: 10;
    color:white;
    margin: auto;
+   margin-top: -30px;
+   border-radius: 5px;
+   
  }
